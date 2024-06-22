@@ -6,18 +6,18 @@ undefined+1=NaN
 'true' == true
 /*true=1
 'true'=NaN
-NaN!=1= false
+NaN=1= false
 Відповідь False
  */
 false == 'false'
 /*false=0
 'false'=NaN
-0!=Nan= False
+0=Nan  False
 Відповідь False 
 */
 null == ''
 /*У JavaScript null не є «посиланням на неіснуючий об'єкт» або «нульовим покажчиком»,а ''=0,
-null!=0, тобто False
+null=0  False
 Відповідь False
 */
 3 ** (9 / 3);
